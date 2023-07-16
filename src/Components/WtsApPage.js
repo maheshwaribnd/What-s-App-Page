@@ -8,10 +8,10 @@ import OpenChat from './OpenChatGirl/OpenChat'
 function WtsApPage() {
     return (
         <div className='flex border-2 border-x-zinc-400'>
-            <div className='pl-3 mr-7 min-[470px]:max-w-max max-[600px]:max-w-max' style={{width: '31%'}}>
+            <div className='pl-3 mr-7 min-[470px]:max-w-max max-[680px]:max-w-max' style={{width: ''}}>
                 <Profile />
                 <Search />
-                <div className='ml-4 pt-5'>
+                <div className='ml-4 pt-5 min-[470px]:max-w-max max-[680px]:max-w-max'>
                     <Chats
                         image='https://thumbs.dreamstime.com/b/innovative-architecture-civil-engineering-plan-building-construction-project-creative-graphic-design-showing-concept-174256642.jpg?w=768' name='Engineering Team' status='My number one priority today is...' time='8.57 AM' />
                     <Chats
@@ -30,7 +30,7 @@ function WtsApPage() {
                         image='https://funkylife.in/wp-content/uploads/2022/09/boys-dp-from-funkylife-72.jpg' name='Tim' status='Going to log off for day. I am...' time='Friday' />
                 </div>
             </div>
-            <div className='ml-5 max-[340px]:hidden min-[680px]:visible max-[1250px]:visible' style={{width:'63%'}} >
+            <div className='ml-5 max-[340px]:invisible min-[680px]:visible max-[1250px]:invisible' style={{width:'63%'}} >
                 <Name />
                 <OpenChat />
             </div>

@@ -3,7 +3,7 @@ import React from 'react'
 function Chats({ image, name, status, time }) {
   return (
 
-    <div className='flex justify-between pb-3'>
+    <div className='flex justify-between pb-3 min-[470px]: gap-6 max-[680px]: gap-6'>
       <div className='flex gap-4'>
         <img src={image} className='w-10 h-10 rounded-full' alt='' />
         <div>
